@@ -1,0 +1,33 @@
+{
+  "threshold_pct": 90.0,
+  "min_duration": 3,
+  "min_area_fraction": 0.05,
+  "wetbulb_method": "stull",
+  "n_dates": 30,
+  "shape": [
+    64,
+    64
+  ],
+  "pixels_with_heatwave": 2060,
+  "mean_heatwave_days": 1.5087890625,
+  "max_heatwave_days": 3,
+  "total_population": 5285023.6783332825,
+  "exposed_population": 2657130.1655082703,
+  "exposed_fraction": 0.5027659906996366,
+  "risk_distribution": {
+    "low": 862,
+    "moderate": 515,
+    "high": 516,
+    "severe": 533,
+    "extreme": 1670
+  },
+  "events": [
+    {
+      "start_day": 10,
+      "end_day": 12,
+      "duration_days": 3,
+      "peak_affected_fraction": 0.50048828125,
+      "mean_affected_fraction": 0.500244140625
+    }
+  ]
+}

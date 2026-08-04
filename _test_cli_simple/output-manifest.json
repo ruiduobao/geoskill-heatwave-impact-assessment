@@ -1,0 +1,119 @@
+{
+  "skill": "heatwave-impact-assessment",
+  "skill_version": "1.0.0",
+  "command": "heatwave-impact-assessment --bbox 116 39 117 40 --synthetic --method simple --quiet --output-dir ./_test_cli_simple",
+  "started_at": "2026-08-03T17:25:36.671604Z",
+  "finished_at": "2026-08-03T17:25:37.005664Z",
+  "exit_code": 0,
+  "inputs": {
+    "input": null,
+    "method": "simple",
+    "min_duration": 3,
+    "synthetic": true
+  },
+  "aoi": null,
+  "datasets": [],
+  "outputs": [
+    {
+      "path": "./_test_cli_simple\\heatwave_days.tif",
+      "kind": "raster",
+      "size_bytes": null,
+      "crs_epsg": 4326,
+      "bbox_wgs84": [
+        116.0,
+        39.0,
+        117.0,
+        40.0
+      ],
+      "resolution_m": null,
+      "nodata": null,
+      "band_count": 1,
+      "feature_count": null,
+      "row_count": null
+    },
+    {
+      "path": "./_test_cli_simple\\exposed_population.tif",
+      "kind": "raster",
+      "size_bytes": null,
+      "crs_epsg": 4326,
+      "bbox_wgs84": [
+        116.0,
+        39.0,
+        117.0,
+        40.0
+      ],
+      "resolution_m": null,
+      "nodata": null,
+      "band_count": 1,
+      "feature_count": null,
+      "row_count": null
+    },
+    {
+      "path": "./_test_cli_simple\\vulnerability.tif",
+      "kind": "raster",
+      "size_bytes": null,
+      "crs_epsg": 4326,
+      "bbox_wgs84": [
+        116.0,
+        39.0,
+        117.0,
+        40.0
+      ],
+      "resolution_m": null,
+      "nodata": null,
+      "band_count": 1,
+      "feature_count": null,
+      "row_count": null
+    },
+    {
+      "path": "./_test_cli_simple\\wetbulb_risk.tif",
+      "kind": "raster",
+      "size_bytes": null,
+      "crs_epsg": 4326,
+      "bbox_wgs84": [
+        116.0,
+        39.0,
+        117.0,
+        40.0
+      ],
+      "resolution_m": null,
+      "nodata": null,
+      "band_count": 1,
+      "feature_count": null,
+      "row_count": null
+    },
+    {
+      "path": "./_test_cli_simple\\heatwave_events.json",
+      "kind": "json",
+      "size_bytes": null,
+      "crs_epsg": null,
+      "bbox_wgs84": null,
+      "resolution_m": null,
+      "nodata": null,
+      "band_count": null,
+      "feature_count": null,
+      "row_count": null
+    }
+  ],
+  "qa": {
+    "source": "synthetic",
+    "wetbulb_method": "simple",
+    "n_dates": 30,
+    "pixels_with_heatwave": 2060,
+    "exposed_population": 2657130.1655082703,
+    "n_events": 1,
+    "n_valid_pixels": 122880,
+    "synthetic_heatwave": {
+      "start_day": 10,
+      "end_day": 12,
+      "duration_days": 3,
+      "region": "eastern half (x_norm > 0.5)",
+      "amplitude_c": 9.0
+    }
+  },
+  "software": {
+    "python": "3.9.21",
+    "skill": "heatwave-impact-assessment"
+  },
+  "error": null
+}
